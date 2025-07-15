@@ -1,0 +1,153 @@
+
+    .filter_component{
+        padding: 30px 50px 20px 50px;
+        box-shadow: 0 0 8px #aaa;
+    }
+    .filter_component .items_group{
+        display: flex;
+        gap: 30px 40px;
+        
+    }
+    .filter_component .items_group .items{
+        flex-grow: 1;
+        width: 25%;
+    }
+    .filter_component .items_group .items .title{
+        margin-bottom: 6px;
+    }
+    .filter_component .items_group .items .title p{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .filter_component .items_group .items .content_block{
+        /* border: 1px solid #ccc; */
+        padding: 10px 0;
+        margin-bottom: 30px;
+    }
+    .filter_component > .button_block{
+        display: flex;
+        padding: 10px 0px;
+        justify-content: right;
+    }
+    .filter_component .button_block .btnnn{
+        
+    }
+    .filter_component .button_block .btnnn button{
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 8px;
+        color: #333;
+        padding: 8px 40px;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .addtolist_component{
+
+    }
+    .addtolist_component .input_block{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .addtolist_component .input_block input{
+        width: 140px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        color: #333;
+    }
+    .addtolist_component .input_block button{
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #333;
+        background-color: transparent;
+        border: 1px solid #aaa;
+        border-radius: 8px;
+    }
+    .addtolist_component .list_block{
+        margin-bottom: 10px;
+    }
+    .addtolist_component .list_block .ul_items{
+        margin: 20px 0 30px 0;
+    }
+    .addtolist_component .list_block .ul_items .ul_li_items{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-left: 20px;
+    }
+    .addtolist_component .list_block .ul_items .ul_li_items:before{
+        content:'・';
+        position: absolute;
+        left: -5px;
+        font-size: 30px;
+    }
+    .addtolist_component .list_block .ul_items .ul_li_items p{
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+        margin-right: 20px;
+    }
+    .addtolist_component .list_block .ul_items .ul_li_items button{
+        padding: 3px 5px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #333;
+        background-color: transparent;
+        border: 1px solid #aaa;
+        border-radius: 8px;
+    }
+    .addtolist_component .list_block .txt{
+        margin: 30px 10px;
+    }
+    .addtolist_component .list_block .txt p{
+        font-size: 12px;
+        font-weight: bold;
+        color: #333;
+    }
+    .addtolist_component .button_block{
+
+    }
+    .addtolist_component .button_block button{
+        padding: 8px 30px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #333;
+        background-color: transparent;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+
+    .checkbox_group_component{
+
+    }
+    .checkbox_group_component .checkbox_items{
+        padding: 0 5px 10px 5px;
+        display: flex;
+        align-items: center;
+    }
+    .checkbox_group_component .checkbox_items input{
+        cursor: pointer;
+    }
+    .checkbox_group_component .checkbox_items label{
+        margin-left: 10px;
+        font-size: 13px;
+        line-height: normal;
+        color: #000;
+        font-weight: bold;
+        cursor: pointer;
+    }

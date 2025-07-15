@@ -1,0 +1,22 @@
+    .header_component{
+        background-color: #444;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
+    }
+    .header_component .ul_items{
+        display: flex;
+    }
+    .header_component .ul_items .ul_li_items{
+        padding: 20px;
+    }
+    .header_component .ul_items .ul_li_items a{
+        font-size: 20px;
+        font-weight: bold;
+        color: #af4;
+        text-decoration: none;
+    }
+

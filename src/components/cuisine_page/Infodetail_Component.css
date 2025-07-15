@@ -1,0 +1,89 @@
+
+    .infodetail_component{
+        position: relative;     
+        box-shadow: 0 0 10px #ccc;
+        background-color: #fff;
+        margin: 20px;
+        padding: 30px;
+    }
+    .infodetail_component .pic_block{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .infodetail_component .pic_block .pic{
+        width: 100px;
+        height: 100px;
+        background-color: #eee;
+    }
+    .infodetail_component .pic_block .pic img{
+        max-width: 100%;
+    }
+    .infodetail_component .pic_block .name{
+
+    }
+    .infodetail_component .pic_block .name p{
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+    }
+    .infodetail_component .content_block{
+        padding: 40px 20px 5px 10px;
+        flex-grow: 1;
+    }
+    .infodetail_component .content_block .items_group{
+
+    }
+    .infodetail_component .content_block .items_group .items{
+        padding: 10px 0px;
+        margin-bottom: 30px;
+    }
+    .infodetail_component .content_block .items_group .items .item_name{
+        padding: 6px 0;
+    }
+    .infodetail_component .content_block .items_group .items .item_name p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .infodetail_component .content_block .items_group .items .ul_items{
+        padding: 0px 5px 0 0;
+        display: flex;
+    }
+    .infodetail_component .content_block .items_group .items .ul_items .ul_li_items{
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .infodetail_component .content_block .items_group .items .ul_items .ul_li_items a,
+    .infodetail_component .content_block .items_group .items .ul_items .ul_li_items p{
+        padding: 5px 15px;
+        display: block;
+        font-size: 13px;
+        font-weight: bold;  
+    }
+    .infodetail_component .content_block .items_group .items .txt p{
+        font-size: 13px;
+        font-weight: bold;  
+    }
+    .infodetail_component .button_block{
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        padding: 10px 20px;
+    }
+    .infodetail_component .button_block .btnnn{
+        
+    }
+    .infodetail_component .button_block .btnnn button{
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 8px;
+        color: #333;
+        padding: 5px 10px;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    

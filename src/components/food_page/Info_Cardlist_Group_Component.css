@@ -1,0 +1,138 @@
+
+    .read_mode_component{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin: 15px 20px;
+    }
+    .read_mode_component .txt{
+        margin-right: 10px;
+    }
+    .read_mode_component .txt p{
+        font-size: 12px;
+        font-weight: bold;
+        color: #333;
+    }
+    .read_mode_component .btnnn{
+
+    }
+    .read_mode_component .btnnn button{
+        font-size: 12px;
+        font-weight: bold;
+        color: #333;
+        padding: 5px 8px;
+        background-color: transparent;
+        border: 1px solid #aaa;
+        cursor: pointer;
+    }
+    .read_mode_component .btnnn button.Cardactive{
+        background-color: #aaa;
+    }
+    .read_mode_component .btnnn button + button{
+        border-left: 0;
+    }
+
+
+    .info_cardlist_group_component{
+        display: block;
+        margin: 0 20px;
+    }
+    .info_cardlist_group_component.Cardactive{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .info_cardlist_component{
+        position: relative;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 10px 20px;
+        background-color: #fff;
+    }
+    .info_cardlist_component + .info_cardlist_component{
+        border-top: 0;
+    }
+    .info_cardlist_group_component.Cardactive .info_cardlist_component{
+        display: block;
+        flex-grow: 1;
+        border: 1px solid #ccc;
+        padding: 15px;
+    }
+    .info_cardlist_component .pic_block{
+        
+    }
+    .info_cardlist_component .pic_block .pic{
+        width: 100px;
+        height: 100px;
+        background-color: #eee;
+    }
+    .info_cardlist_component .pic_block .pic img{
+        max-width: 100%;
+    }
+    .info_cardlist_component .content_block{
+        flex-grow: 1;
+        padding: 0 15px;
+    }
+
+    .info_cardlist_group_component.Cardactive .info_cardlist_component .content_block{
+        padding: 15px 0px;
+    }
+    .info_cardlist_component .content_block .name{
+
+    }
+    .info_cardlist_component .content_block .name p{
+        padding-top: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+    }
+    .info_cardlist_component .content_block .items_group{
+
+    }
+    .info_cardlist_component .content_block .items_group .items{
+        padding: 10px 0px;
+    }
+    .info_cardlist_component .content_block .items_group .items .item_name{
+        padding: 6px 0;
+    }
+    .info_cardlist_component .content_block .items_group .items .item_name p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .info_cardlist_component .content_block .items_group .items .ul_items{
+        padding: 0px 5px 0 0;
+        display: flex;
+    }
+    .info_cardlist_component .content_block .items_group .items .ul_items .ul_li_items{
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .info_cardlist_component .content_block .items_group .items .ul_items .ul_li_items a,
+    .info_cardlist_component .content_block .items_group .items .ul_items .ul_li_items p{
+        padding: 5px 15px;
+        display: block;
+        font-size: 12px;
+        font-weight: bold; 
+        color: #333;
+    }
+    .info_cardlist_component .button_block{
+        display: flex;
+        padding: 10px 20px;
+    }
+    .info_cardlist_group_component.Cardactive .info_cardlist_component .button_block{
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .info_cardlist_component .button_block .btnnn button{
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 8px;
+        color: #333;
+        padding: 5px 10px;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }

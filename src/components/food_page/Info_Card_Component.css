@@ -1,0 +1,99 @@
+
+    .info_card_component{
+        box-shadow: 0 0 10px #ccc;
+        background-color: #fff;
+        display: flex;
+        gap: 0 30px;
+        padding: 20px;
+        margin: 20px;
+        position: relative;
+    }
+    .info_card_component .title_block{
+        padding: 10px;
+    }
+    .info_card_component .title_block .pic{
+        border: 1px solid #ccc;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+        background-color: #eee;
+    }
+    .info_card_component .title_block .pic img{
+        max-width: 100%;
+    }
+    .info_card_component .title_block .btnnn{
+        text-align: center;
+    }
+    .info_card_component .title_block .btnnn button{
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 8px;
+        color: #333;
+        padding: 8px 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .info_card_component .content_block{
+        padding-top: 10px;
+    }
+    .info_card_component .content_block .name{
+        padding-top: 8px;
+    }
+    .info_card_component .content_block .name p{
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+    .info_card_component .content_block .label{
+        position: absolute;
+        right: 0;
+        top: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .info_card_component .content_block .label p{
+        border: 1px solid #ccc;
+        color: #000;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 10px;
+    }
+    .info_card_component .content_block .items_group{
+        display: flex;
+        margin-top: 10px;
+    }
+    .info_card_component .content_block .items_group .items{
+        padding: 10px 20px;
+        border-right: 1px solid #ddd;
+    }
+    .info_card_component .content_block .items_group .items:last-child{
+        border: none;
+    }
+    .info_card_component .content_block .items_group .items .item_name{
+        padding: 6px 10px;
+    }
+    .info_card_component .content_block .items_group .items .item_name p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .info_card_component .content_block .items_group .items .ul_items{
+        padding: 7px 10px;
+        display: flex;
+    }
+    .info_card_component .content_block .items_group .items .ul_items .ul_li_items{
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .info_card_component .content_block .items_group .items .ul_items .ul_li_items a,
+    .info_card_component .content_block .items_group .items .ul_items .ul_li_items p{
+        padding: 5px 15px;
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        color: #333;
+    }
+
+
+

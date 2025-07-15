@@ -1,0 +1,28 @@
+    .Favo_List_Component{
+        background-color: #fff;
+        box-shadow: 0 0 10px #ccc;
+        margin: 20px 20px 20px 10px;
+        padding: 15px;
+    }
+    .Favo_List_Component .title{
+
+    }
+    .Favo_List_Component .title p{
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+    }
+    .Favo_List_Component .content_block{
+        margin: 10px;
+    }
+    .Favo_List_Component .content_block .ul_items{
+
+    }
+    .Favo_List_Component .content_block .ul_items .ul_li_items{
+        margin-bottom: 10px;
+    }
+    .Favo_List_Component .content_block .ul_items .ul_li_items a{
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+    }
