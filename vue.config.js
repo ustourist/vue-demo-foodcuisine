@@ -13,6 +13,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   // publicPath: publicPath(),
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-demo-foodcuisine/'
+    ? '/'
     : '/'
 })
