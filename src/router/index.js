@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Food_Page from './../views/Food_Page.vue'
+import Cuisine_Page from './../views/Cuisine_Page.vue'
+import Nutrition_Page from './../views/Nutrition_Page.vue'
 
 const routes = [
     {
@@ -15,18 +17,22 @@ const routes = [
     {
         path: '/Cuisine_Page',
         name: 'Cuisine_Page',
+        component: Cuisine_Page,
+        
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ './../views/Cuisine_Page.vue')
+        // component: () => import(/* webpackChunkName: "about" */ './../views/Cuisine_Page.vue')
     },
     {
         path: '/Nutrition_Page',
         name: 'Nutrition_Page',
+        component: Nutrition_Page,
+
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ './../views/Nutrition_Page.vue')
+        // component: () => import(/* webpackChunkName: "about" */ './../views/Nutrition_Page.vue')
     }
 ]
 
